@@ -11,7 +11,7 @@ dotenv.config();
 app.use(express.json());
 app.use(cors(
     {
-        origin: 'http://localhost:3000',
+        origin: 'https://cozy-starship-234322.netlify.app',
         credentials: true,
     }
 ))
